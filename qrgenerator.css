@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(11, 18, 18);
+    text-align: center;
+    height: 100vh;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    
+
+}
+.div1{
+    border: 3px black solid;
+    height: 70vh;
+    width: 40vw;
+    background-color: rgb(239, 245, 246);
+    align-items: center;
+    place-items: center;
+    display: grid;
+    border-radius: 20px;
+
+
+}
+#div2{
+   
+    height: 40vh;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#qrtext{
+    border: 3px black solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 20vw;
+   
+    
+}
+#submit{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10px ;
+    background: purple;
+    color: white;
+    text-decoration: solid;
+
+}

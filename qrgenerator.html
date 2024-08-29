@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="qrgenerator.css">
+</head>
+<body>
+    <div class="div1">
+        <label for="text"><h2>GIVE A WORD TO GENERATE A QR CODE</h2></label>
+        <input type="text" id="qrtext" value="" placeholder="   ENTER A WORD OR URL ">
+        <button onclick="generaro()" id="submit">SUBMIT</button>
+        <button onclick="reset()" id="submit">reset</button>
+        <br>
+            <div id="div2">
+             <img src="" alt="QR image" id="img">
+            </div>
+    </div>
+    <script src ="qrcode.js"></script>
+</body>
+</html>
