@@ -1,2 +1,1 @@
-# MY_projects
-projects 
+# QR GENERATOR
